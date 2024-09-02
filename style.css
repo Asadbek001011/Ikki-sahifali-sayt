@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #F3D7B7;
+    
+    height: 700px;
+
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_menu{
+    display: flex;
+    list-style: none;
+    margin-top: 22px;
+
+}
+.header_menu a{
+    text-decoration: none;
+    color: #333333;
+    margin: 0 16.5px;
+    transition: 0.5s;   
+}
+.header_menu a:hover{
+    color: #dd4400;
+
+}
+
+.header_info{
+    width: 203px;
+height: 24px;
+margin-top: -30px;
+margin-left: 75px;
+color: #555555;
+
+
+}
+.header_logo{
+    width: 24px;
+    height: 24px;
+    margin-top: 22px;
+    margin-left: 55px;
+    
+}
+.headre__content{
+    display: flex;
+    justify-content: space-between;
+}
+.header_text{
+    width: 464px;
+    height: 367px;
+    margin-left: 50px;
+    margin-top: 174px;
+}
+.header_text h1{
+width: 420px;
+height: 150px;
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 64px;
+
+
+
+}
+.header_text h2{
+    width: 464px;
+    height: 72px;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+button{
+    background-color: #0A775F;
+    width: Hug (193px)px;
+    height: Hug (51px)px;
+    padding: 16px 24px 16px 24px;
+    border-radius: 50px;
+    border-color: #0A775F;
+    margin-top: 20px;
+}
+button p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 18.75px;
+}
+.logo_coin{
+margin-top: 150px;
+
+
+}
+.coin{
+    position: relative;
+    left: 100px;
+    bottom: 480px;
+}
+main{
+   
+    height: 1744px;
+    background-color:  beige;
+
+
+}
+.main_header p{
+font-family:"Roboto", sans-serif ;
+font-size: 50px;
+font-weight:700;
+display: flex;
+justify-content: center;
+padding-top: 100px;
+
+}
+.main_left{
+    margin-left: 100px;
+}
+.main_right h3{
+    width:164.5px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+}
+
+
+.main-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-info{
+    display: flex;
+    justify-content: space-around;
+}
+.item-info{
+    background-color: #F3D7B7;
+}
+.main-tex{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+
+
+
+footer{
+    background-color: #F3D7B7;
+    height: 200px;
+}
+.footer_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
